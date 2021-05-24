@@ -33,7 +33,6 @@ def game(user,randnum):
             print("oops! Match tied computer chose: ",randnum)
             return 0     
 finalscore = 0
-# rounds = int(input("Enter number of rounds you want to play:\n"))
 user = input("Choose Between Snake(s),Water(w),Gun(g)\n")
 score = game(user,randnum)
 finalscore = finalscore + score
